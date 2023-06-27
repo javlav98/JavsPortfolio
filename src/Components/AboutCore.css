@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DM+Sans&family=Gloria+Hallelujah&family=Orbitron&family=Play&family=Press+Start+2P&family=Righteous&family=Space+Mono&display=swap');
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.pic {
+    width: 20%;
+    height: 20%;
+    margin: 1rem;
+}
+.pContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+.skillsheaderConatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-family: 'dm sans', sans-serif;
+    color: white;
+}
+.list {
+    color: rgb(0, 0, 0);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+    list-style: none;
+    margin-left: 1rem;
+} 
+
+@media screen and (max-width: 500px) {
+    .pContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pic {
+        width: 76%;
+        height: 50%;
+        margin: 1rem;
+        border-radius: 10px;
+    }
+    p {
+        color: rgb(0, 0, 0);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1rem;
+        text-align: center;
+        max-width: 400px;
+        margin-top: 20px;
+    
+    }
+    .skillsheaderConatiner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        margin-top: 20px;
+    }
+    .list {
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 25px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .listItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 0.5px solid black;
+        border-radius: 5px;
+        padding: 10px;
+    }
+  }
