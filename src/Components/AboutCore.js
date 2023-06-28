@@ -14,7 +14,7 @@ function AboutHeader() {
 function AboutImageBody() {
   return (
     <div className='pContainer'>
-      <img src="6C95D768-EFB4-4E3C-80BF-01A1411C8442_1_105_c.jpeg" alt="placeholder" width='300' className='pic'/>
+      <img src="me.jpeg" alt="placeholder" width='300' className='pic'/>
       <p>
         Hello, I'm Javier Lavin, a Web Developer from the Southern California region based 
         in Riversdie, CA. I graduated from the University of California, Irvine with a degree 
@@ -40,14 +40,14 @@ function SkillsHeader() {
 
 function SkillsBody() {
   return (
-    <div>
+    <div className='cardContainer'>
       <ul className='list'>
-        <li className='listItem'><FontAwesomeIcon icon={faHtml5} size='3x' className='icon'/>HTML</li>
-        <li className='listItem'><FontAwesomeIcon icon={faCss3Alt} size='3x' className='icon'/>CSS</li>
-        <li className='listItem'><FontAwesomeIcon icon={faJsSquare} size='3x' className='icon'/>Javascript</li>
-        <li className='listItem'><FontAwesomeIcon icon={faNodeJs} size='3x' className='icon'/>NodeJs</li>
-        <li className='listItem'><FontAwesomeIcon icon={faReact} size='3x' className='icon'/>React</li>
-        <li className='listItem'><FontAwesomeIcon icon={faGitAlt} size='3x' className='icon'/>Git</li>
+        <li className='listItem'><FontAwesomeIcon icon={faHtml5} size='2x' className='icon'/>HTML</li>
+        <li className='listItem'><FontAwesomeIcon icon={faCss3Alt} size='2x' className='icon'/>CSS</li>
+        <li className='listItem'><FontAwesomeIcon icon={faJsSquare} size='2x' className='icon'/>Javascript</li>
+        <li className='listItem'><FontAwesomeIcon icon={faReact} size='2x' className='icon'/>React</li>
+        <li className='listItem'><FontAwesomeIcon icon={faNodeJs} size='2x' className='icon'/>NodeJs</li>
+        <li className='listItem'><FontAwesomeIcon icon={faGitAlt} size='2x' className='icon'/>Git</li>
       </ul>
     </div>
   )

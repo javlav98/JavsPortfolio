@@ -4,6 +4,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css';
 
 const Navbar = () => {
+  const [bgColor, setbgColor] = useState('black'); 
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -11,10 +12,11 @@ const Navbar = () => {
   };
 
   return (
+    <div style={{background: bgColor}}>
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          Javier Lavin
+          Javier L.
         </Link>
         <div className="menu-icon" onClick={toggleMenu}>
           {isOpen ? <FaTimes /> : <FaBars />}
@@ -60,6 +62,7 @@ const Navbar = () => {
         </ul>
       </div>
     </nav>
+    </div>
   );
 };
 

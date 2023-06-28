@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DM+Sans&family=Gloria+Hallelujah&family=Orbitron&family=Play&family=Press+Start+2P&family=Righteous&family=Space+Mono&display=swap');
 
-h1 {
+.title1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-    color: black;
+    height: 80vh;
+    color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+
 }
