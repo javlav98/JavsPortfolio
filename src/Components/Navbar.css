@@ -55,7 +55,7 @@
   @media screen and (max-width: 500px) {
     .menu-icon {
       display: block;
-      margin-right: 1px; /* Adjust the margin as needed */
+      margin-right: -5px; /* Adjust the margin as needed */
     }
   
     .nav-menu {

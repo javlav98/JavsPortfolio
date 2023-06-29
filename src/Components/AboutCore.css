@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DM+Sans&family=Gloria+Hallelujah&family=Orbitron&family=Play&family=Press+Start+2P&family=Righteous&family=Space+Mono&display=swap');
 
-.titleContainer{
+.titleContainer h1{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 515px;
     margin-top: 50px;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
 
 }
 .pic {
@@ -14,6 +15,7 @@
     height: 50%;
     margin-left: 25px;
     margin-right: 10px;
+    border: 1px solid black;
 }
 .pContainer {
     display: flex;
@@ -29,13 +31,14 @@ p {
     max-width: 400px;
 
 }
-.skillsheaderConatiner{
+.skillsheaderConatiner h1{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10vh;
     font-family: 'courier new', sans-serif;
-    margin-top: 50px;
+    font-weight: lighter;
+    margin-top: 20px;
 }
 
 .cardContainer {
@@ -60,7 +63,7 @@ p {
     text-align: center;
     flex-direction: column;
     border: 0.5px solid black;
-    margin: 25px;
+    margin: 40px;
     padding: 20px;
     width: 100px;
     font-family: 'Courier New', Courier, monospace ;
@@ -76,13 +79,14 @@ p {
 
 
 @media screen and (max-width: 500px) {
-    .titleContainer {
+    .titleContainer h1{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 10px;
+        margin-right: 0px;
+        margin-top: 50px;
         font-family: 'Courier New', Courier, monospace;
-        width: 100%;
+    
     }
     .pContainer {
         display: flex;
@@ -95,7 +99,6 @@ p {
         height: 50%;
         margin: 1rem;
         border: 1px solid black;
-        border-radius: 30px;
     }
     p {
         color: rgb(0, 0, 0);
@@ -116,6 +119,7 @@ p {
         height: 10vh;
         margin-top: 20px;
         font-family: 'courier new', sans-serif;
+        width: 100%;
     }
     .list {
         display: flex;
