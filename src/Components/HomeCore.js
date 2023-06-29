@@ -5,7 +5,7 @@ import './HomeCore.css';
 function Title () {
     return (
         <div style={{
-          backgroundImage: `url("portbg.jpg")`,
+          backgroundImage: `url("scan.jpg")`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: 'center',

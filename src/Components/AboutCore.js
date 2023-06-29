@@ -15,7 +15,7 @@ function AboutImageBody() {
   return (
     <div className='pContainer'>
       <img src="me.jpeg" alt="placeholder" width='300' className='pic'/>
-      <p>
+      <p className='aboutText'>
         Hello, I'm Javier Lavin, a Web Developer from the Southern California region based 
         in Riversdie, CA. I graduated from the University of California, Irvine with a degree 
         in History and an interest in Web Development. I'm currently attending W3school's coding 

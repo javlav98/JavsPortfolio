@@ -23,7 +23,7 @@
     align-items: center;
 
 }
-p {
+.aboutText {
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
@@ -100,7 +100,7 @@ p {
         margin: 1rem;
         border: 1px solid black;
     }
-    p {
+    .aboutText {
         color: rgb(0, 0, 0);
         font-family: 'Courier New', Courier, monospace;
         font-size: 1rem;
