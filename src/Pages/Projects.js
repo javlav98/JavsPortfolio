@@ -1,9 +1,10 @@
 import React from 'react'
+import ProjectsCore from '../Components/ProjectsCore'
 
 export default function Projects() {
   return (
     <div>
-      <h1>Projects</h1>
+      <ProjectsCore />
     </div>
   )
 }

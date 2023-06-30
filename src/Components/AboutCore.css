@@ -6,8 +6,9 @@
     align-items: center;
     margin-right: 515px;
     margin-top: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
     font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 .pic {
@@ -37,8 +38,9 @@
     align-items: center;
     height: 10vh;
     font-family: 'courier new', sans-serif;
-    font-weight: lighter;
     margin-top: 20px;
+    font-weight: lighter;
+    font-size: 2rem;
 }
 
 .cardContainer {

@@ -1,5 +1,5 @@
 footer {
-    border: 0.5px solid black;
+    border-top: 0.5px solid black;
 }
 
 .iconContainer {
@@ -20,7 +20,7 @@ footer {
     justify-content: center;
     align-items: center;
     list-style: none;
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 15px;
 }
 
@@ -38,7 +38,7 @@ footer {
     color: #787878;
 }
 
-p {
+.Copyrights {
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     margin: 0;

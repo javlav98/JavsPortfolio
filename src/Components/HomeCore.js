@@ -5,7 +5,7 @@ import './HomeCore.css';
 function Title () {
     return (
         <div style={{
-          backgroundImage: `url("scan.jpg")`,
+          backgroundImage: `url("portbg.jpg")`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -14,7 +14,7 @@ function Title () {
           color: 'white',
           border: '0.1px solid black',
         }}>
-            <h1 className='title1'>Hello, I'm Javier <br></br> Full Stack Web Developer</h1>
+            <h1 className='title1'>Hello, I'm Javier <br></br> Full Stack Web Developer.</h1>
         </div>
     )
 }
