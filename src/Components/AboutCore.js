@@ -1,7 +1,7 @@
 import React from 'react'
 import './AboutCore.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHtml5, faCss3Alt, faJsSquare, faNodeJs, faReact, faGitAlt } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faCss3Alt, faJsSquare, faNodeJs, faReact, faGitAlt, faBootstrap, faNpm} from '@fortawesome/free-brands-svg-icons'
 
 function AboutHeader() {
   return (
@@ -46,8 +46,10 @@ function SkillsBody() {
         <li className='listItem'><FontAwesomeIcon icon={faCss3Alt} size='2x' className='icon'/>CSS</li>
         <li className='listItem'><FontAwesomeIcon icon={faJsSquare} size='2x' className='icon'/>Javascript</li>
         <li className='listItem'><FontAwesomeIcon icon={faReact} size='2x' className='icon'/>React</li>
+        <li className='listItem'><FontAwesomeIcon icon={faBootstrap} size='2x' className='icon'/>Bootstrap</li>
         <li className='listItem'><FontAwesomeIcon icon={faNodeJs} size='2x' className='icon'/>NodeJs</li>
         <li className='listItem'><FontAwesomeIcon icon={faGitAlt} size='2x' className='icon'/>Git</li>
+        <li className='listItem'><FontAwesomeIcon icon={faNpm} size='2x' className='icon'/>npm</li>
       </ul>
     </div>
   )
