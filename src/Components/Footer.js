@@ -8,14 +8,14 @@ const Footer = () => {
   return (
     <footer>
      <ul className='iconContainer'>
-        <li className='iconSm'>
-        <FaLinkedin/>
+       <li className='iconSm'> 
+        <a><FaLinkedin/></a>
         </li>
         <li className='iconSm'>
-        <FaGithub/>
+        <a><FaGithub/></a>
         </li>
         <li className='iconSm'>
-        <FaSpotify/>
+        <a><FaSpotify/></a>
         </li>
      </ul>
       <div className="footerNav">
