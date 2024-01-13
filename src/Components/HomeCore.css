@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DM+Sans&family=Gloria+Hallelujah&family=Orbitron&family=Play&family=Press+Start+2P&family=Righteous&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DM+Sans&family=Gloria+Hallelujah&family=Orbitron&family=Play&family=Press+Start+2P&family=Raleway:wght@100&family=Righteous&family=Space+Mono&display=swap');
 
 .title1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
-    color: rgb(255, 255, 255);
-    font-family: 'Courier New', Courier, monospace;
+    justify-content: right;
+    align-items: right;
+    margin-top: 200px;
+    margin-right: 150px;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
     text-align: center;
-    font-size: large;
+    font-size: 50px;
     font-weight: lighter;
 }

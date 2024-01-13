@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DM+Sans&family=Gloria+Hallelujah&family=Orbitron&family=Play&family=Press+Start+2P&family=Raleway:wght@100&family=Righteous&family=Space+Mono&display=swap');
+
 .navbar {
     height: 50px;
     display: flex;
@@ -18,7 +20,7 @@
     color: #ffffff;
     font-size: 24px;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway', sans-serif;
   }
   
   .menu-icon {
@@ -38,7 +40,7 @@
   
   .nav-item a {
     margin-right: 16px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     text-decoration: none;
     color: #ffffff;
