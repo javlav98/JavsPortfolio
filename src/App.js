@@ -1,10 +1,19 @@
 import React from 'react'
-import  Navroute from './Router/Navroute'
+import About from './Components/About'
+import Contact from './Components/Contact'
+import Projects from './Components/Projects'
+import Social from './Components/Social'
+import Header from './Components/Header'
+
 
 export default function App() {
   return (
     <div>
-      <Navroute />
+      <Header />
+      <Projects />
+      <About />
+      <Contact />
+      <Social />
     </div>
   )
 }
