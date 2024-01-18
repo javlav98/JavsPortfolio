@@ -1,5 +1,5 @@
-import React from 'react'
-import './Header.css'
+import React from 'react';
+import './Header.css';
 
 export default function Header() {
   const scrollToNextSection = () => {
@@ -9,15 +9,15 @@ export default function Header() {
 
   return (
     <div className='header-page'>
-      <h1 className='name-logo'>Javier L.</h1>
+      <h1 className='name-logo'>JL.</h1>
       <p>
         I am Javier Lavin, a Full Stack web developer with a fervor for transforming ideas into immersive digital experiences.
       </p>
-      <a href='#nextSection' className='scroll-arrow' onClick={scrollToNextSection}>
-        <span class="material-symbols-outlined">
+      <div className='scroll-arrow' onClick={scrollToNextSection}>
+        <span className="material-symbols-outlined">
           expand_more
         </span>
-      </a>
+      </div>
     </div>
-  )
+  );
 }

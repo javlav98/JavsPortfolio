@@ -5,13 +5,14 @@
     font-weight: bold;
     margin: 0px;
     padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 15px;
     color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
 }
 .sub-heading-one {
     color: rgb(0, 0, 0);
     font-size: 1rem;
+    padding-left: 15px;
 
 }
 
@@ -22,9 +23,16 @@
 }
 
 .projects-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .project-one, .project-two, .project-three, .project-four, .project-five {
@@ -38,4 +46,32 @@
     padding-bottom: 50px;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
+}
+
+img {
+    width: 235px;
+    height: auto;
+}
+
+.projects-page,
+.projects-container,
+.project-one,
+.project-two,
+.project-three,
+.project-four,
+.project-five {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.projects-page.visible,
+.projects-container.visible,
+.project-one.visible,
+.project-two.visible,
+.project-three.visible,
+.project-four.visible,
+.project-five.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
