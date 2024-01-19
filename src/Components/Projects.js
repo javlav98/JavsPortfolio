@@ -23,11 +23,10 @@ export default function Projects() {
   return (
     <div id='nextSection' className={`projects-page ${isVisible ? 'visible' : ''}`}>
       <h1 className='title-one'>Projects</h1>
-      <p className='sub-heading-one'>Projects that I've personally worked on</p>
 
       <div className={`projects-container ${isVisible ? 'visible' : ''}`}>
         <div className={`project-one ${isVisible ? 'visible' : ''}`}>
-          <img src='https://via.placeholder.com/150' alt='project one' className='project-image' />
+          <img src='noiszer1.png' alt='project one' className='project-image' />
           <h2 className='project-title'>Project One</h2>
         </div>
 

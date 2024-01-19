@@ -10,8 +10,8 @@ export default function Header() {
   return (
     <div className='header-page'>
       <h1 className='name-logo'>JL.</h1>
-      <p>
-        I am Javier Lavin, a Full Stack web developer with a fervor for transforming ideas into immersive digital experiences.
+      <p className='header-text'>
+        Full Stack web developer with a fervor for transforming ideas into immersive digital experiences.
       </p>
       <div className='scroll-arrow' onClick={scrollToNextSection}>
         <span className="material-symbols-outlined">
