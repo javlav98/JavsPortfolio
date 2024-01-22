@@ -1,34 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Red+Hat+Display:wght@300&display=swap');
 
-.name-logo {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0px;
-    padding: 50px;
-    color: rgb(255, 255, 255);
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2px;
-    
+.bg-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border: 1px solid #ffffff;
+    border-width: 20px;
+    z-index: -1;
 
 }
 
-.header-page {
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(0, 0, 0);
-    border: 1px solid rgb(255, 255, 255);
-    border-width: 10px;
-    letter-spacing: 2px;
+.name-logo {
+  z-index: 1;
+  position: absolute;
+  font-family: 'courier new', monospace;
+  font-size: 1rem;
+  color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-140%, -500%);
+  text-shadow: 0 0 10px #000000;
+  animation: fade-in 1s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 
 }
 
 .header-text {
-    font-size: 1.7rem;
-    font-weight: bold;
-    margin: 0px;
-    padding: 50px;
-    color: rgb(255, 255, 255);
-    font-family: 'Montserrat', sans-serif;
+  z-index: 1;
+  position: absolute;
+  font-family: 'courier new', monospace;
+  font-size: 1rem;
+  color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 10px #000000;
+  animation: fade-in 1s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  text-align: left;
+  
 }
 
 .scroll-arrow {
@@ -41,6 +54,13 @@
     align-items: center;
     animation: bounce 1s infinite;
     transition: transform 0.3s ease;
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    text-shadow: 0 0 10px #000000;
+
+
   }
 
   .header-page:hover .scroll-arrow {

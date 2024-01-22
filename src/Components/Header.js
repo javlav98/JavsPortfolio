@@ -9,9 +9,10 @@ export default function Header() {
 
   return (
     <div className='header-page'>
-      <h1 className='name-logo'>JL.</h1>
+      <img src='smoke.jpg' alt='profile' className='bg-image' />
+      <h1 className='name-logo'>Javier L.</h1>
       <p className='header-text'>
-        Full Stack web developer with a fervor for transforming ideas into immersive digital experiences.
+        Full-stack web developer with a passion for learning and creating.
       </p>
       <div className='scroll-arrow' onClick={scrollToNextSection}>
         <span className="material-symbols-outlined">
@@ -21,3 +22,4 @@ export default function Header() {
     </div>
   );
 }
+

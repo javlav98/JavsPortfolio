@@ -25,29 +25,47 @@ export default function Projects() {
       <h1 className='title-one'>Projects</h1>
 
       <div className={`projects-container ${isVisible ? 'visible' : ''}`}>
-        <div className={`project-one ${isVisible ? 'visible' : ''}`}>
-          <img src='noiszer1.png' alt='project one' className='project-image' />
-          <h2 className='project-title'>Project One</h2>
+
+        <div className={`project-card ${isVisible ? 'visible' : ''}`}>
+          <img src='https://via.placeholder.com/150' alt='project one' className='project-image' />
+          <div className='card-content'>
+            <h2 className='project-title'>Project One</h2>
+            <p className='project-description'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+            </p>
+          </div>
         </div>
 
-        <div className={`project-two ${isVisible ? 'visible' : ''}`}>
+        <div className={`project-card ${isVisible ? 'visible' : ''}`}>
           <img src='https://via.placeholder.com/150' alt='project two' className='project-image' />
-          <h2 className='project-title'>Project Two</h2>
+          <div className='card-content'>
+            <h2 className='project-title'>Project Two</h2>
+            <p className='project-description'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+            </p>
+          </div>
         </div>
 
-        <div className={`project-three ${isVisible ? 'visible' : ''}`}>
+        <div className={`project-card ${isVisible ? 'visible' : ''}`}>
           <img src='https://via.placeholder.com/150' alt='project three' className='project-image' />
-          <h2 className='project-title'>Project Three</h2>
+          <div className='card-content'>
+            <h2 className='project-title'>Project Three</h2>
+            <p className='project-description'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+            </p>
+
+          </div>
         </div>
 
-        <div className={`project-four ${isVisible ? 'visible' : ''}`}>
+        <div className={`project-card ${isVisible ? 'visible' : ''}`}>
           <img src='https://via.placeholder.com/150' alt='project four' className='project-image' />
-          <h2 className='project-title'>Project Four</h2>
-        </div>
+          <div className='card-content'>
+            <h2 className='project-title'>Project Four</h2>
+            <p className='project-description'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+            </p>
 
-        <div className={`project-five ${isVisible ? 'visible' : ''}`}>
-          <img src='https://via.placeholder.com/150' alt='project five' className='project-image' />
-          <h2 className='project-title'>Project Five</h2>
+          </div>
         </div>
       </div>
     </div>

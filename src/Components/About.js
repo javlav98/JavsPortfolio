@@ -1,11 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './About.css';
 
 export default function About() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleScroll = () => {
+    const aboutSection = document.getElementById('aboutSection');
+    if (aboutSection) {
+      const rect = aboutSection.getBoundingClientRect();
+      const visible = rect.top <= window.innerHeight / 2;
+      setIsVisible(visible);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className='about-page'>
+    <div id='aboutSection' className={`about-page ${isVisible ? 'visible' : ''}`}>
       <h1 className='about-title'>About</h1>
-      <div className='about-content'>
+      <div className={`about-content ${isVisible ? 'visible' : ''}`}>
         <img className='about-img' src='graduation.jpeg' alt='about' />
         <p className='about-text'>Self-taught developer skilled in HTML, CSS/SASS, JavaScript/NextJS, TypeScript, Git, testing, Node.js/Express, and SQL. Eager to contribute expertise to web development. </p>
         

@@ -10,8 +10,8 @@ export default function App() {
   return (
     <div>
       <Header />
-      <Projects />
       <About />
+      <Projects />
       <Contact />
       <Social />
     </div>
