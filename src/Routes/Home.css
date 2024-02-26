@@ -27,7 +27,7 @@
     transition: all 0.3s ease;
     cursor: pointer;
     margin-top: 1rem;
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
     font-family: 'Urbanist', sans-serif;
     /* position the button to the left */
     transform: translateX(-71%);
