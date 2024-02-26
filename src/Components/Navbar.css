@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400&display=swap');
 
 .navbar {
-    border-bottom: 2px solid #000;
+    border-bottom: 1.5px solid #000;
 }
 .navbar-brand {
     font-size: 2rem;

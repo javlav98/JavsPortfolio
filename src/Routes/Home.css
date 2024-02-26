@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     background-color: antiquewhite;
-    height: fit-content;
+    height: 100vh;
 }
 
 .title {
@@ -16,20 +16,18 @@
     margin-left: 30px;
     margin-right: 30px;
     font-weight: 100;
-    margin-top: 50px;
 }
 
 .contactButton {
     font-size: 1.5rem;
     padding: 10px 20px;
-    border-radius: 5px;
     background-color: #ffffff;
     color: #000;
     border: 1px solid #000;
     transition: all 0.3s ease;
     cursor: pointer;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     font-family: 'Urbanist', sans-serif;
     /* position the button to the left */
     transform: translateX(-71%);
